@@ -1,0 +1,84 @@
+/*
+Written by Joshua Fabian
+August 2016, MIT Transit Lab
+jfabi@mit.edu, joshuajfabian@gmail.com
+
+Last updated 23 August 2016
+*/
+
+body {
+    background-color: gray;
+    background-image: url(bg.jpg);
+    color: #EEEEEE;
+    height: 100%;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+line:hover {
+    stroke-width: 8px;
+    fill: rgb(250, 232, 255);
+}
+
+div.tooltip {	
+    position: absolute;
+    text-align: left;
+    padding: 4px;
+    font: 16px sans-serif;
+    background: black;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+h1 {
+    font-family: Roboto, calibri, sans-serif;
+    font-size: 42px;
+}
+
+h2 {
+    font-family: Roboto, calibri, sans-serif;
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+    line-height: 22px;
+}
+
+#itemList {
+    font-family: Roboto, calibri, sans-serif;
+    font-size: 24px;
+}
+
+
+#itemList2 {
+    font-family: Roboto, calibri, sans-serif;
+    font-size: 24px;
+}
+
+#alertsT {
+    margin-top: 28px;
+    margin-bottom: -14px;
+    
+    font-family: Roboto, calibri, sans-serif;
+    font-size: 24px;
+}
+
+#dwellsT {
+    margin-top: 28px;
+    margin-bottom: -14px;
+    
+    font-family: Roboto, calibri, sans-serif;
+    font-size: 20px;
+}
+
+#alerts {
+    font-family: Roboto, calibri, sans-serif;
+    font-weight: 700px;
+    margin-top: 22px;
+}
+
+
+td {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
